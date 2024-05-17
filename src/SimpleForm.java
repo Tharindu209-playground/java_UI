@@ -108,20 +108,20 @@ class SimpleForm extends JFrame implements ActionListener{
 
         date = new JComboBox(dates);
         date.setFont(new Font("Arial", Font.PLAIN, 15));
-        date.setSize(50, 20);
+        date.setSize(70, 20);
         date.setLocation(200, 250);
         container.add(date);
 
         month = new JComboBox(months);
         month.setFont(new Font("Arial", Font.PLAIN, 15));
-        month.setSize(60, 20);
-        month.setLocation(250, 250);
+        month.setSize(80, 20);
+        month.setLocation(270, 250);
         container.add(month);
 
         year = new JComboBox(years);
         year.setFont(new Font("Arial", Font.PLAIN, 15));
-        year.setSize(60, 20);
-        year.setLocation(320, 250);
+        year.setSize(100, 20);
+        year.setLocation(350, 250);
         container.add(year);
 
         add = new JLabel("Address");
